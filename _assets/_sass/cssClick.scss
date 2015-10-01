@@ -1,7 +1,6 @@
 .onclick-menu {
     position: relative;
     display: inline-block;
-    text-align: center;
 }
 .onclick-menu:before {
     content: "Navigation";
@@ -13,8 +12,14 @@
 .onclick-menu-content {
     position: absolute;
     z-index: 1;
-
+    list-style-type: none;
+    padding:0; 
+    margin:0;
     /* disable visibility by default, delay to enable clicks */
     visibility: hidden;
     transition: visibility 0.5s;
+}
+
+.onclick-menu-content li {
+    text-align:center;
 }
