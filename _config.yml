@@ -1,0 +1,14 @@
+title: Nefarious-Meow
+description:
+
+permalink: /:categories/:title/
+
+sass:
+    style: compressed
+    sass_dir: _sass
+    
+include: ["_pages","_assets"]
+
+timezone: Australia/Sydney
+
+encoding: utf-8
