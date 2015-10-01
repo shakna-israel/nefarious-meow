@@ -1,0 +1,8 @@
+{% include head.html %}
+<body>
+{% include navigation.html %}
+{{ content }}
+</body>
+<footer>
+{% include footer.html %}
+</footer>
