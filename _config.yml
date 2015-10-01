@@ -5,7 +5,7 @@ permalink: /:categories/:title/
 
 sass:
     style: compressed
-    sass_dir: _sass
+    sass_dir: _assets/_sass
     
 include: ["_pages","_assets"]
 
