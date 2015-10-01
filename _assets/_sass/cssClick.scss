@@ -3,7 +3,7 @@
     display: inline-block;
 }
 .onclick-menu:before {
-    content: "click me!";
+    content: "Navigation";
 }
 .onclick-menu:focus .onclick-menu-content {
     /* content is visible if menu is 'opened' */
