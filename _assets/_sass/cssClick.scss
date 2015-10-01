@@ -1,6 +1,8 @@
 .onclick-menu {
     position: relative;
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .onclick-menu:before {
     content: "Navigation";
