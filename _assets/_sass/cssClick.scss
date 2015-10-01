@@ -44,4 +44,10 @@
     text-align:center;
     background: #9B9696;
     background: rgba(155, 150, 150, 0.7);
+    @include transition(.3s width ease-in-out);
+}
+
+.onclick-menu-content li:hover {
+    cursor: pointer;
+    width: 100%;
 }
