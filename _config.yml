@@ -1,6 +1,13 @@
 title: Nefarious-Meow
 description:
 
+navigation:
+  - title: Home
+    url: /
+
+url: '/neafrious-meow/'
+baseurl: '//shakna-israel.github.io/'
+
 permalink: /:categories/:title/
 
 sass:
@@ -12,3 +19,14 @@ include: ["_pages","_assets"]
 timezone: Australia/Sydney
 
 encoding: utf-8
+
+highlighter: false
+markdown:    kramdown
+
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
