@@ -1,6 +1,9 @@
 <div tabindex="0" class="onclick-menu">
     <ul class="onclick-menu-content">
         {% for item in site.data.navigation %}
+        {% if forloop.index0 == 0 %}
+            <li><a href="{{ site.baseurl }}{{ site.url }}/{{ item.url | remove_first: "/" }}">{{ item.title }}</a></li>
+        {% endif %}
             <li><a href="{{ site.baseurl }}{{ site.url }}/{{ item.url | remove_first: "/" | append: "/" }}">{{ item.title }}</a></li>
         {% endfor %}
     </ul>
