@@ -1,5 +1,5 @@
-url: 'nefarious-meow'
-baseurl: '//shakna-israel.github.io/'
+url: '/nefarious-meow'
+baseurl: '//shakna-israel.github.io'
 
 permalink: /:categories/:title/
 
@@ -7,7 +7,7 @@ sass:
     style: compressed
     sass_dir: _assets/_sass
     
-include: ["_pages","_assets"]
+include: ['_pages','_assets']
 
 timezone: Australia/Sydney
 
